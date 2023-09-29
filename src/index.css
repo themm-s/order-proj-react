@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Logo */
+#logo {
+  width: 22vh;
+}
+
+/* Responsive logo */
+
+@media (max-width: 363px) and (max-height: 739px) {
+  #logo {
+    display: none;
+  }
+}
+
+@media (max-width: 375px) and (max-height: 667px) {
+  #logo {
+    width: 20vh;
+  }
+}
