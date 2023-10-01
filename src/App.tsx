@@ -1,7 +1,11 @@
+import { Navbar } from "./components/Navbar";
+import { Main } from "./pages/Main";
+
 export const App = () => {
   return (
-    <div>
-      <h1>Order Pro</h1>
-    </div>
+    <>
+      <Navbar />
+      <Main />
+    </>
   );
 };
