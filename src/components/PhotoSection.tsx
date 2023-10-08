@@ -9,7 +9,7 @@ type TPhotos = {
 
 export const Photos: React.FC<TPhotos> = ({ photo, name, position }) => {
   return (
-    <div className="text-center">
+    <div className="text-center w-full">
       <img className="w-[150px] h-[150px] p-1 border rounded-full m-auto" src={photo} />
       <h5 className="font-bold text-lg font-serif">{name}</h5>
       <div className="font-sans m-auto w-5/6">{position}</div>
@@ -19,8 +19,8 @@ export const Photos: React.FC<TPhotos> = ({ photo, name, position }) => {
 
 export const PhotoSection = () => {
   return (
-    <div className="flex px-5 my-5 justify-center">
-      <div className="flex flex-row space-x-28">
+    <div className="flex p-12 my-5 justify-center bg-gray-50">
+      <div className="flex flex-row space-x-24">
         <Photos
           photo={photo.genDir}
           name={"Александр Павлович"}
