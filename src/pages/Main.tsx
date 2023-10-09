@@ -59,7 +59,16 @@ export const Main = () => {
         <br />Существует единый порядок освидетельствования, во время ее проведения проводят осмотр поверхностей баллонов
         на предмет обнаружения повреждения поверхности.
       </Section>
+      <hr className="border-gray-300" />
       <PhotoSection />
+      <hr className="border-gray-300" />
+      <section className="flex py-5 justify-center">
+        <div className="px-5 my-5">
+          <div className="text-center">
+            <h1 className="mb-5 font-bold text-3xl">Последние новости</h1>
+          </div>
+        </div>
+      </section>
     </>
   );
 };
