@@ -1,6 +1,6 @@
 import * as photo from "../constants/index";
 import { Section } from "../components/Section";
-import { PhotoSection } from "../components/PhotoSection";
+import { PhotoSection } from "../ui/PhotoSection";
 
 export const Main = () => {
   return (

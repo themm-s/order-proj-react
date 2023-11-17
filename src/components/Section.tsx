@@ -7,7 +7,12 @@ type TProps = {
   graybg: boolean;
 };
 
-export const Section: React.FC<PropsWithChildren<TProps>> = ({ photo, title, children, reversed, graybg }) => {
+export const Section: React.FC<PropsWithChildren<TProps>> = ({
+  photo,
+  title,
+  children,
+  reversed,
+  graybg }) => {
   const reversedClass = reversed ? " xl:flex-row-reverse" : "xl:flex-row";
   const grayBackGround = graybg ? "bg-gray-50" : "";
 
