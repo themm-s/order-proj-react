@@ -20,7 +20,7 @@ export const Photos: React.FC<TPhotos> = ({ photo, name, position }) => {
 export const PhotoSection = () => {
   return (
     <div className="flex p-12 my-5 justify-center bg-gray-50">
-      <div className="flex flex-row space-x-24">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:space-y-0 xl:flex xl:flex-row xl:space-x-24 xl:space-y-0">
         <Photos
           photo={photo.genDir}
           name={"Александр Павлович"}

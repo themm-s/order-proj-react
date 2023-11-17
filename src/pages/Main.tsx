@@ -66,6 +66,14 @@ export const Main = () => {
         <div className="px-5 my-5">
           <div className="text-center">
             <h1 className="mb-5 font-bold text-3xl">Последние новости</h1>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 justify-around">
+              <div className="">
+                <img src={photo.newsPhoto} className="h-[500px] w-[400px]" />
+              </div>
+              <div>
+                <img src={photo.newsPhoto2} className="h-[500px] w-[400px]" />
+              </div>
+            </div>
           </div>
         </div>
       </section>

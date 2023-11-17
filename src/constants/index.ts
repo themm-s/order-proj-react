@@ -5,6 +5,8 @@ import genDir from "../assets/personal/GenDirector.png";
 import deputyDir from "../assets/personal/DeputyDir1.jpg";
 import commerceDir from "../assets/personal/Commerce.jpg";
 import finDir from "../assets/personal/FinDir.png";
+import newsPhoto from "../assets/news/Attestatsia.jpg";
+import newsPhoto2 from "../assets/news/Skidki_1.jpg";
 
 export {
   section1Photo,
@@ -13,5 +15,7 @@ export {
   genDir,
   deputyDir,
   commerceDir,
-  finDir
+  finDir,
+  newsPhoto,
+  newsPhoto2
 };
