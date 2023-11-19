@@ -10,6 +10,9 @@ export const Contact = () => {
                   № АГЗС
                 </th>
                 <th scope="col" className="px-6 py-3">
+                  Телефон
+                </th>
+                <th scope="col" className="px-6 py-3">
                   Адрес
                 </th>
                 <th scope="col" className="px-6 py-3">
@@ -23,6 +26,9 @@ export const Contact = () => {
                   1
                 </th>
                 <td className="px-6 py-4">
+                  +7 (952) 714-72-86
+                </td>
+                <td className="px-6 py-4">
                   г. Нефтеюганск, ул. Объездная б/н, возле ЮНП № 100
                 </td>
                 <td className="px-6 py-4">
@@ -33,6 +39,9 @@ export const Contact = () => {
                 <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap ">
                   2
                 </th>
+                <td className="px-6 py-4">
+                  +7 (992) 357-80-24
+                </td>
                 <td className="px-6 py-4">
                   г. Пыть-ях, ул. Магистральная, промзона Северная
                 </td>
@@ -45,6 +54,9 @@ export const Contact = () => {
                   3
                 </th>
                 <td className="px-6 py-4">
+                  +7 (951) 977-08-85
+                </td>
+                <td className="px-6 py-4">
                   г. Нефтеюганск, Северо-Восточная зона, массив 2, квартал 5, строение 2
                 </td>
                 <td className="px-6 py-4">
@@ -55,6 +67,9 @@ export const Contact = () => {
                 <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap ">
                   4
                 </th>
+                <td className="px-6 py-4">
+                  +7 (951) 968-49-40
+                </td>
                 <td className="px-6 py-4">
                   Через день:
                   <br />
@@ -79,6 +94,9 @@ export const Contact = () => {
                   5
                 </th>
                 <td className="px-6 py-4">
+                  +7 (932) 254-71-02
+                </td>
+                <td className="px-6 py-4">
                   Заправка газгольдеров
                 </td>
                 <td className="px-6 py-4">
@@ -89,6 +107,9 @@ export const Contact = () => {
                 <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap ">
                   6
                 </th>
+                <td className="px-6 py-4">
+                  +7 (951) 961-54-40
+                </td>
                 <td className="px-6 py-4">
                   г. Нефтеюганск, Северо-Западная зона, ул. Сургутская, здание 17, Гор. Газ
                 </td>
@@ -101,6 +122,9 @@ export const Contact = () => {
                   7
                 </th>
                 <td className="px-6 py-4">
+                  +7 (952) 696-38-80
+                </td>
+                <td className="px-6 py-4">
                   Ханты-Мансийский район, с. Селиярово, ул. Лесная
                 </td>
                 <td className="px-6 py-4">
@@ -111,6 +135,9 @@ export const Contact = () => {
                 <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap ">
                   9
                 </th>
+                <td className="px-6 py-4">
+                  +7 (922) 444-54-38
+                </td>
                 <td className="px-6 py-4">
                   Ханты-Мансийский район, Сургутский район, сельское поселение Угут, промышленная зона Угутская 1, улица Советская, № 29.
                 </td>
@@ -123,6 +150,9 @@ export const Contact = () => {
                   Офис
                 </th>
                 <td className="px-6 py-4">
+                  +7 (950) 510-93-87
+                </td>
+                <td className="px-6 py-4">
                   г. Нефтеюганск, 1 мкр., дом 33, помещение 7
                 </td>
                 <td className="px-6 py-4">
@@ -131,6 +161,22 @@ export const Contact = () => {
                   Пт с 8:30 до 12:30
                   <br />
                   Обед с 12:30 до 14:00
+                </td>
+              </tr>
+              <tr className="bg-white">
+                <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap ">
+                  Стэнд
+                </th>
+                <td className="px-6 py-4">
+                  +7 (952) 709-59-06
+                </td>
+              </tr>
+              <tr className="bg-white">
+                <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap ">
+                  СТО
+                </th>
+                <td className="px-6 py-4">
+                  +7 (992) 351-10-20
                 </td>
               </tr>
             </tbody>
