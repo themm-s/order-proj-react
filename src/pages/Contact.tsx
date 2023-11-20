@@ -1,7 +1,7 @@
 export const Contact = () => {
   return (
     <>
-      <section className="p-12">
+      <section className="p-12 whitespace-nowrap">
         <div className="relative overflow-x-auto">
           <table className="w-full text-sm text-center rtl:text-right text-gray-500">
             <thead className="text-xs text-gray uppercase">
@@ -73,16 +73,12 @@ export const Contact = () => {
                 <td className="px-6 py-4">
                   Через день:
                   <br />
-                  2 день – сп. Каркатеевы
-                  <br />
                   Приразломное месторождение (район КПП)
                   <br />
                   Приобское месторождение (поворот на Елыковское м/р)
                 </td>
                 <td className="px-6 py-4">
                   Через день:
-                  <br />
-                  с 17.00 до 18.00
                   <br />
                   с 11.00 до 13.00
                   <br />
@@ -170,6 +166,12 @@ export const Contact = () => {
                 <td className="px-6 py-4">
                   +7 (952) 709-59-06
                 </td>
+                <td className="px-6 py-4">
+                  Тюменская область, Ханты-Мансийский автономный округ, Нефтеюганск, ул. Строителей, строение 3/3A
+                </td>
+                <td className="px-6 py-4">
+                  С 9 до 18 (обед с 13 до 14)
+                </td>
               </tr>
               <tr className="bg-white">
                 <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap ">
@@ -177,6 +179,12 @@ export const Contact = () => {
                 </th>
                 <td className="px-6 py-4">
                   +7 (992) 351-10-20
+                </td>
+                <td className="px-6 py-4">
+                  г. Нефтеюганск, ул. Объездная б/н, возле ЮНП № 100
+                </td>
+                <td className="px-6 py-4">
+                  С 9 до 18 (обед с 13 до 14)
                 </td>
               </tr>
             </tbody>
