@@ -7,6 +7,7 @@ import commerceDir from "../assets/personal/Commerce.jpg";
 import finDir from "../assets/personal/FinDir.png";
 import newsPhoto from "../assets/news/Attestatsia.jpg";
 import newsPhoto2 from "../assets/news/Skidki_1.jpg";
+import newsPhoto3 from "../assets/news/NG.jpg";
 
 export {
   section1Photo,
@@ -17,5 +18,6 @@ export {
   commerceDir,
   finDir,
   newsPhoto,
-  newsPhoto2
+  newsPhoto2,
+  newsPhoto3
 };

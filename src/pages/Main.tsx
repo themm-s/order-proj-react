@@ -73,6 +73,9 @@ export const Main = () => {
               <div>
                 <img src={photo.newsPhoto2} className="h-[500px] w-[400px]" />
               </div>
+              <div>
+                <img src={photo.newsPhoto3} className="h-[500px] w-[400px]" />
+              </div>
             </div>
           </div>
         </div>
